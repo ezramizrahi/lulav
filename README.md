@@ -1,6 +1,6 @@
 # Lulav
 
-Motion + object detection with OpenCV. Running on a Raspberry Pi 4 Model B (4GB) running Raspbian and using the Raspberry Pi Camera Module 2.
+Motion + object detection with OpenCV. Running on a Raspberry Pi 4 Model B (4GB) and using the Raspberry Pi Camera Module 2.
 
 ## Getting Started
 
