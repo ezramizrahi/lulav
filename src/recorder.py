@@ -6,8 +6,6 @@ def initialize_camera():
     return cv2.VideoCapture(0)
 
 def initialize_video_writer(video_path='data/output.mp4', frame_size=(640, 480), fps=30):
-    # FourCC is a 4-byte code used to specify video codec
-    # For H.264 use mp4v or H264 depending on system
     fourcc = cv2.VideoWriter_fourcc(*'avc1')
     return cv2.VideoWriter(video_path, fourcc, fps, frame_size)
 
