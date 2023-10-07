@@ -15,7 +15,6 @@ def detect_motion(frame, prev_frame):
     gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
     prev_gray = cv2.cvtColor(prev_frame, cv2.COLOR_BGR2GRAY)
 
-    # apply gaussian blur
     gray = cv2.GaussianBlur(gray, (21, 21), 0)
     prev_gray = cv2.GaussianBlur(prev_gray, (21, 21), 0)
 
